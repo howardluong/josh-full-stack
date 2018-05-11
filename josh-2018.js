@@ -68,6 +68,12 @@ function showPage() {
     		}
   		});
 	}
+	$('#navLogo').click(function(){
+		$('html, body').animate({
+			scrollTop: $('#mainContent').offset().top
+		}, 600);
+	});
+
 	$("#about").click(function() {
     	$('html, body').animate({
         	scrollTop: $("#aboutSection").offset().top
