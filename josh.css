@@ -270,6 +270,12 @@ body, html {
   #projects .row .col-lg-3 #brittanysNewLineUp:hover {
     background-size: 150% 150%; }
 
+.respProjectTitle {
+  display: none; }
+
+.respLinkHide {
+  display: none; }
+
 #contactSection {
   background-color: #5AB9EA;
   overflow-x: hidden; }
@@ -408,3 +414,14 @@ footer {
   -o-transform: rotateY(720deg);
   -ms-transform: rotateY(720deg);
   transform: rotateY(720deg); }
+
+@media (max-width: 576px) {
+  .respProjectTitle {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid transparent;
+    text-align: center; }
+  .projectLinkBtn {
+    border: 3px solid white;
+    padding: 0;
+    text-decoration: none; } }
